@@ -18,35 +18,49 @@
 
       <h3>What cats love</h3>
 
-      <p>This is a list of what cats <em>love</em></p>
-      <ul>
-        <li>Destroy Sofas</li>
-        <li>Sleep</li>
-        <li>Walk on Keyboards</li>
-        <li><s>Coffee in a Cat Cup</s></li>
-      </ul>
-      <img src="images/CAT _COFFEE.jpg" alt="Café de gato">
+      <div>
+        <p>This is a list of what cats <em>love</em></p>
+        <ul>
+          <li>Destroy Sofas</li>
+          <li>Sleep</li>
+          <li>Walk on Keyboards</li>
+          <li><s>Coffee in a Cat Cup</s></li>
+        </ul>
+        <img src="images/CAT _COFFEE.jpg" alt="Café de gato">
 
-      <p>This that cats <strong>hate</strong>:</p>
-      <ol>
-        <li>Water</li>
-        <li>To be over-petted</li>
-        <li>Some humans</li>
-        <li>Other cats</li>
-      </ol>
+        <p>This is what cats <strong>hate</strong>:</p>
+        <ol>
+          <li>Water</li>
+          <li>To be over-petted</li>
+          <li>Some humans</li>
+          <li>Other cats</li>
+        </ol>
+      </div>
+
       <img src="images/Cat_Hate.png" alt="Gato enojado">
 
+      <!-- Here starts the form -->
       <form action="/send-answer">
-        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interiores</label>
-        <label for="exterior"><input id="exterior" type="radio" name="interior-exterior" >Exteriores</label><br>
+        <!--radio buttons-->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior">Interiores</label>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior" >Exteriores</label><br>
 
+        <!--checkboxes-->
+        <label for="sweet">
+          <input id="sweet" checked type="checkbox" name="cat-personality" value="sweet">Sweet Cat</label><br>
+        <label for="angry">
+          <input id="angry" type="checkbox" name="cat-personality" value="angry">Angry Cat</label><br>
+        <label for="crazy">
+          <input id="crazy" type="checkbox" name="cat-personality" value="crazy">Crazy Cat</label><br>
+        <label for="sleepy">
+          <input id="sleepy" type="checkbox" name="cat-personality"value="sleepy">Sleepy Cat</label><br>
+
+        <!--text and send button-->
         <input type="text" placeholder="What kind of cat" required><br>
-
         <button type="submit">Send</button>
       </form>
-
-
-
     </main>
   </body>
  </html>
