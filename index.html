@@ -37,9 +37,11 @@
       <img src="images/Cat_Hate.png" alt="Gato enojado">
 
       <form action="/send-answer">
-        <label><input type="radio">Interiores</label>
-        <label><input type="radio">Exteriores</label>
-        <input type="text" placeholder="What kind of cat" required>
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interiores</label>
+        <label for="exterior"><input id="exterior" type="radio" name="interior-exterior" >Exteriores</label><br>
+
+        <input type="text" placeholder="What kind of cat" required><br>
+
         <button type="submit">Send</button>
       </form>
 
