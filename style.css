@@ -20,5 +20,8 @@ a {
 
 .cat-image {
   width: 580px;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: palevioletred;
 
 }
