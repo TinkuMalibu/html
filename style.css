@@ -13,3 +13,12 @@ li {
   font-size: 30px;
   color: purple;
 }
+
+a {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.cat-image {
+  width: 580px;
+
+}
