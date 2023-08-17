@@ -1,4 +1,30 @@
-h1 {
+#title-app-cats {
+  font-size: 60px;
+  font-family: 'Caprasimo', cursive;
+  color: palevioletred;
+}
+
+#cat-image {
+  width: 580px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
   font-size: 60px;
   font-family: 'Caprasimo', cursive;
   color: palevioletred;
@@ -27,5 +53,11 @@ a {
 }
 
 .rounded {
-  border-radius: 150px;
+  border-radius: 50%;
 }
+
+
+.list-container{
+background-color: rgb(234, 228, 228);
+
+} */
