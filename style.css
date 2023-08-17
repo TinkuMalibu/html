@@ -12,52 +12,26 @@
   border-color: palevioletred;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* h1 {
-  font-size: 60px;
-  font-family: 'Caprasimo', cursive;
-  color: palevioletred;
-}
-
-h3 {
-  font-size: 25px;
-  font-family: 'roboto', sans-serif;
-}
-
-li {
+#cat-list-love{
   font-size: 30px;
   color: purple;
 }
 
-a {
-  font-family: 'Gemunu Libre', sans-serif;
-}
-
-.cat-image {
-  width: 580px;
-  border-width: 10px;
-  border-style: ridge;
-  border-color: palevioletred;
+#list-cat-hate{
+  font-size: 18px;
+  color: rgb(199, 71, 199);
+  font-family: arial, helvetica, sans-serif;
 
 }
 
-.rounded {
-  border-radius: 50%;
+div {
+  background-color: rgb(195, 172, 216);
 }
 
-
-.list-container{
-background-color: rgb(234, 228, 228);
-
-} */
+img {
+  padding: 15px;
+  background-color: yellow;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
