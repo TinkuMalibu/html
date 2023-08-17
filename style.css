@@ -1,4 +1,10 @@
-h3 {
+* {
+  color: purple;
+}
+
+
+
+/* h3 {
   color: purple;
 }
 
@@ -12,4 +18,4 @@ ul li {
 
 ol li {
   color: purple;
-}
+} */
