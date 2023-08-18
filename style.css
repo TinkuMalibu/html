@@ -10,16 +10,20 @@ input[type="checkbox"] {
   margin: 15px;
 }
 
+a[href="https://iso.500px.com/cat-photography-tips/"]{
+  color:rgb(238, 16, 190);
+  text-decoration: none;
+  font-size: 20px;
+}
 
 
-
-/* #title-app-cats {
+  #title-app-cats{
   font-size: 60px;
   font-family: 'Caprasimo', cursive;
   color: palevioletred;
 }
 
-#cat-image {
+/* #cat-image {
   width: 580px;
   border-radius: 50%;
   border-width: 10px;
