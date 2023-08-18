@@ -1,3 +1,8 @@
+body{
+  background-color: lightpink;
+  color: purple;
+}
+
 img[alt]{
   border-radius: 50%;
 }
@@ -26,7 +31,7 @@ a[href="https://iso.500px.com/cat-photography-tips/"]{
 #main-container{
   color: white;
   padding:5px;
-  font-size: 10px;
+  font-size: 40px;
   background-color:yellow;
   font-family: verdana, Geneva, Tahoma, sans-serif;
 }
@@ -49,6 +54,7 @@ a[href="https://iso.500px.com/cat-photography-tips/"]{
 .em{
   background-color: rgb(232, 25, 207);
   width: 15em;
+  font-size: 1.5em;
 }
 
 
