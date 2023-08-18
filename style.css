@@ -1,4 +1,19 @@
-#title-app-cats {
+img[alt]{
+  border-radius: 50%;
+}
+
+input[type="radio"] {
+ margin: 10px;
+}
+
+input[type="checkbox"] {
+  margin: 15px;
+}
+
+
+
+
+/* #title-app-cats {
   font-size: 60px;
   font-family: 'Caprasimo', cursive;
   color: palevioletred;
@@ -25,13 +40,15 @@
 }
 
 div {
-  background-color: rgb(195, 172, 216);
-}
-
-img {
-  padding: 15px;
-  background-color: yellow;
-  border-width: 5px;
+  border-width: 6px;
   border-color: black;
   border-style: solid;
 }
+
+img {
+  margin: 25px;
+  padding: 25px;
+  border-width: 6px;
+  border-color: black;
+  border-style: solid;
+} */
