@@ -3,8 +3,18 @@ body{
   color: purple;
 }
 
+h3 {
+  font-size: 30px;
+  font-family: 'roboto', sans-serif;
+  color: palevioletred;
+}
+
 img[alt]{
   border-radius: 50%;
+  border-width: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
 }
 
 input[type="radio"] {
@@ -18,8 +28,9 @@ input[type="checkbox"] {
 a[href="https://iso.500px.com/cat-photography-tips/"]{
   color:rgb(238, 16, 190);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+  font-family: 'roboto', sans-serif;
 }
 
    #title-app-cats{
@@ -97,7 +108,7 @@ img {
 .pinguino {
   --pinguino-barriga: rgb(237, 226, 226);
   --pinguino-pico: yellow;
-  --pinguino-mejillas: rgba(224, 88, 111, 0.311);
+  --pinguino-mejillas: rgb(255, 139, 159);
   position: relative;
   margin: auto;
   display: block;
@@ -258,9 +269,6 @@ height: 10%;
 border-radius: 50%;
 }
 
-body {
-background:#c6faf1;
-}
 
 .pinguino * {
 position: absolute;
